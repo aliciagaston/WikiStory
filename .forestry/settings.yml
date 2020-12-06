@@ -7,15 +7,13 @@ sections:
 - type: document
   path: docs/intro
   label: Introduction
-  match: "**/*"
 - type: heading
   label: Personnages
 - type: document
   path: docs/characters
   label: Alexis
-  match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: docs/.vuepress/public/img
+public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
