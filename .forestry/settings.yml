@@ -21,7 +21,7 @@ sections:
   path: docs/characters/alexis.md
   label: Alexis
 upload_dir: docs/.vuepress/public/img
-public_path: WikiStory/img
+public_path: "/WikiStory/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
