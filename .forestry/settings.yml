@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: docs
+  label: root
+  create: all
+  match: "**/*"
 - type: document
   path: docs/intro
   label: Introduction
