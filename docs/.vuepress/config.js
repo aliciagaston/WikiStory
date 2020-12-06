@@ -1,7 +1,7 @@
 module.exports = {
     base: "/WikiStory/",
-    title: "Boilerplate",
-    description: "boilerplate",
+    title: "Wiki Histoire",
+    description: "l'histoire dans sa tete",
     head: [
         ['link', { rel: 'icon', href: "/favicon.ico" }]
     ],
@@ -9,6 +9,7 @@ module.exports = {
     themeConfig: {
         // search
         sidebar: [
+            ['/characters', 'Characters']
         ],
         search: false,
 
