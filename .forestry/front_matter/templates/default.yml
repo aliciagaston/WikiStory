@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: title
+pages:
+- docs/c-est-un-test.md
