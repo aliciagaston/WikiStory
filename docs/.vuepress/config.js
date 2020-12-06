@@ -9,7 +9,7 @@ module.exports = {
     themeConfig: {
         // search
         sidebar: [
-            ['/characters', 'Characters']
+            ['/characters/', 'Characters']
         ],
         search: false,
 
