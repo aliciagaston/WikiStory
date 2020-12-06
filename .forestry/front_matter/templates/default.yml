@@ -9,3 +9,4 @@ fields:
   label: title
 pages:
 - docs/c-est-un-test.md
+- docs/characters/alexis.md
