@@ -1,5 +1,5 @@
 module.exports = {
-    base: "",
+    base: "/WikiStory/",
     title: "Boilerplate",
     description: "boilerplate",
     head: [
