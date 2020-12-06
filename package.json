@@ -19,7 +19,8 @@
   "author": "Thomas Blanc",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-theme-book": "0.0.5"
   },
   "dependencies": {
     "vuepress-plugin-clean-urls": "^1.0.3"
