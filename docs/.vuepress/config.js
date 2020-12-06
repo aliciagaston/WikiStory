@@ -3,7 +3,7 @@ module.exports = {
     title: "Boilerplate",
     description: "boilerplate",
     head: [
-        ['link', { rel: 'icon', href: "/favicon.ico"}]
+        ['link', { rel: 'icon', href: "/favicon.ico" }]
     ],
     themeConfig: {
         // search
@@ -12,7 +12,7 @@ module.exports = {
         search: false,
 
         // if your docs are in a different repo from your main project:
-        docsRepo: 'Macouta/Mamoru',
+        docsRepo: 'aliciagaston/WikiStory',
         // root of the doc:
         docsDir: 'docs',
         // branch of the doc:
@@ -29,6 +29,7 @@ module.exports = {
                 normalSuffix: '/',
                 indexSuffix: '/',
                 notFoundPath: '/404',
-            }],
+            }
+        ],
     ],
 }
