@@ -1,0 +1,32 @@
+{
+  "name": "vuepress-boilerplate",
+  "version": "1.0.0",
+  "description": "vuepress boilerplate to quickly start with travis CI and Forestry",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "forestry:preview": "vuepress dev docs -p 8080 --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macouta/vuepress-boilerplate.git"
+  },
+  "keywords": [
+    "vuepress",
+    "travisCI",
+    "forestry"
+  ],
+  "author": "Thomas Blanc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Macouta/vuepress-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Macouta/vuepress-boilerplate#readme",
+  "dependencies": {
+    "vuepress-plugin-clean-urls": "^1.0.3"
+  }
+}
