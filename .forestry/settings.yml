@@ -15,7 +15,7 @@ sections:
 - type: heading
   label: Personnages
 - type: document
-  path: docs/characters
+  path: docs/characters/alexis.md
   label: Alexis
 upload_dir: docs/.vuepress/public/img
 public_path: "/img"
